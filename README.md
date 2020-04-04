@@ -1,1 +1,26 @@
-# latihanuts
+#include <iostream.h>
+#include <conio.h>
+
+void main ()
+{
+ int B, W, U,a;
+ 
+ cout<< "Tugas Program"<<endl;
+ cout<< "Program Menghitung"<<endl;
+ cout<< "lama waktu menabung(dalam tahun)=";
+ cin>>W;
+ cout<< "uang yang ditabung = "; cin>>U;
+ 
+ B = W * U;
+ 
+ if (W<5)
+ a=B * 0.1;
+ 
+ if (W>5||W==5)
+ a=B * 0.15;
+ 
+ 
+ cout<<"Besar Bunga Anda Adalah = "<<a;
+ 
+ getch();
+ }
