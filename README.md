@@ -1,8 +1,7 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
-void main ()
+int main ()
 {
  int B, W, U,a;
  
@@ -23,5 +22,4 @@ void main ()
  
  cout<<"Besar Bunga Anda Adalah = "<<a;
  
- getch();
  }
