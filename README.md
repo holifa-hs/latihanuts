@@ -16,7 +16,7 @@ int main ()
  if (W<5)
  a=B * 0.1;
  
- if (W>5||W==5)
+ else if (W>5||W==5)
  a=B * 0.15;
  
  
